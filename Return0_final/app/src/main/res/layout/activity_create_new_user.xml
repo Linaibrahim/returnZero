@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        android:id="@+id/imageView"
+        android:layout_marginTop="82dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="CREATE NEW ACCOUNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@color/txtcolor"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp">
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@color/txtcolor"/>
+
+        <EditText
+            android:id="@+id/editText_password1"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:textColor="@color/txtcolor"/>
+        <EditText
+            android:id="@+id/editText_password2"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:textColor="@color/txtcolor"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="REGISTER"
+                android:textColor="@color/txtcolor" />
+            <!--<Button-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Add New User"-->
+                <!--android:id="@+id/button_add"-->
+                <!--android:textColor="@color/txtcolor" />-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+

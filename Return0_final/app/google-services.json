@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "648778833309",
+    "firebase_url": "https://return0-841a8.firebaseio.com",
+    "project_id": "return0-841a8",
+    "storage_bucket": "return0-841a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648778833309:android:8c9a75c47fff19be",
+        "android_client_info": {
+          "package_name": "com.example.pcworld.return0_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648778833309-0ectk4lsnnt4kou5krms50age35r85j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXUnRC_6u4Zt-3wUXhCZI6wZI6i5ZRgEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

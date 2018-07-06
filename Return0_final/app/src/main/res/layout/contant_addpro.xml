@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+
+            android:layout_marginTop="82dp"
+            android:src="@drawable/ic_interface" />
+
+        <EditText
+        android:id="@+id/editText_title"
+        android:hint="Title"
+        android:inputType="textEmailAddress"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/txtcolor"
+        />
+
+    <EditText
+        android:id="@+id/editText_description"
+        android:hint="Description"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:textColor="@color/txtcolor"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:text="Add Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="33dp"
+        android:id="@+id/button"
+        android:onClick="AddToDB"/>
+
+    </LinearLayout>
+</RelativeLayout>
